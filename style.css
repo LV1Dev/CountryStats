@@ -6,7 +6,7 @@
      font-family: 'Roboto', sans-serif;
 }
  body {
-     background: url('images/bck.png')no-repeat;
+     background: url('bck.png')no-repeat;
      background-size: cover;
      background-repeat: no-repeat;
      display: flex;
