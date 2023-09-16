@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+ * {
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     font-family: 'Roboto', sans-serif;
+}
+ body {
+     background: url('images/bck.png')no-repeat;
+     background-size: cover;
+     background-repeat: no-repeat;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     width: 100%;
+}
+ .f {
+     position: relative;
+     width: 600px;
+     height: 850px;
+     background: transparent;
+     border: 2px solid #040308;
+     border-radius: 20px;
+     backdrop-filter: blur(6px);
+     justify-content: center;
+     align-items: center;
+     background-color: rgba(0, 0, 0, .73);
+     box-shadow: 0 0 25px #000000;
+}
+ h1 i {
+     color: #e64f13;
+     padding: 5px;
+}
+ img {
+     max-height: 100px;
+     width: auto;
+     margin-bottom: 10px;
+     object-fit: contain;
+}
+ h1 {
+     text-align: center;
+     padding: 30px;
+     color:#dadada;
+}
+ h2 {
+     text-align: center;
+     font-size: .8em;
+     letter-spacing: 2px;
+     max-width: 100%;
+     padding: 3%;
+     color:#dadada;
+}
+ form {
+     margin: 20px 0;
+     text-align: center;
+}
+ label {
+     display: inline-block;
+     margin-right: 10px;
+}
+ input[type="text"] {
+     width: 200px;
+     height: 30px;
+     padding: 5px;
+     outline: none;
+     border: none;
+}
+ button {
+     font-size: 1em;
+     width: 40px;
+     height: 40px;
+     color: white;
+     cursor: pointer;
+     border: none;
+     outline: none;
+     background-color: transparent;
+     transition: 0.5s;
+}
+ #country-info {
+     margin-top: 20px;
+     text-align: center;
+     color: #ffffff;
+     font-size: 20px;
+     font-size: 1.4em;
+}
+ #country-input {
+     position: relative;
+     margin: 30px 0;
+     width: 300px;
+     border: none;
+     border-bottom: 1px solid #dadada;
+     font-size: 2em;
+     background-color: transparent;
+     color: #dadada;
+     transition: 0.5s;
+}
+ footer {
+     background:transparent;
+     color: #ffffff;
+     text-align: center;
+     padding: 10px;
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+     font-size: 0.7em;
+     text-shadow: 0px 0px 9px black;
+}
